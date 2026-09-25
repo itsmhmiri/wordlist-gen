@@ -38,5 +38,6 @@ htmlcov/
 *.swp
 *.swo
 
-# Specification
+# Specification & Internal Notes
 guide.md
+update.md
