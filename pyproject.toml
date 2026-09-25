@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordlist-gen"
+version = "0.1.0"
+description = "Targeted OSINT Wordlist & Password Pattern Generator"
+authors = [{ name = "itsmhmiri", email = "mhmiri.cs@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+wordlist-gen = "wordlist_gen.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
