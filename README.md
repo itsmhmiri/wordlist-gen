@@ -6,7 +6,7 @@ Instead of generating gigabytes of random gibberish like `crunch` does (nobody's
 
 Feed it a few seeds—from CLI flags or a YAML profile—and get a tailored, policy-compliant dictionary ready for your penetration test or security audit.
 
-![wordlist-gen demo](assets/demo.gif)
+![wordlist-gen demo](assets/demo2.gif)
 
 ---
 
